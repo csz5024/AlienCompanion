@@ -40,11 +40,11 @@ public class CurrentPlace : MonoBehaviour
         {
             return "Eating Area";
         }
-        else if (Lat >= 37.5503 - MarginOfError && Lat <= 37.5507 + MarginOfError && Long <= 126.9406 - MarginOfError && Long >= 126.9421 + MarginOfError)
+        else if (Lat >= 37.5503 - MarginOfError && Lat <= 37.5508 + MarginOfError && Long <= 126.9406 - MarginOfError && Long >= 126.9421 + MarginOfError)
         {
             return "Field";
         }
-       
+
 
         return "Hasn't been mapped";
     }
